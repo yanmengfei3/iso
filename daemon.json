@@ -1,0 +1,16 @@
+{
+  "log-driver": "json-file",
+  "log-opts": {
+    "max-size": "5m",
+    "max-file": "3"
+  },
+  "exec-opts": ["native.cgroupdriver=systemd"],
+  "registry-mirrors": [
+    "https://dockerproxy.net",
+    "https://hub.atomgit.com",
+    "https://docker.1panel.dev",
+    "https://docker.zhai.cm",
+    "https://docker.m.daocloud.io"
+  ],
+  "insecure-registries": ["192.168.189.171"]
+}
